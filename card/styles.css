@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family:  "Outfit, sans-serif";
 }
-.container{
+.main{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -26,37 +26,37 @@
     
 }
 
-.image{
+.card__image{
     height: 200px;
     margin-bottom: 20px;
     border-radius: 8px;
     cursor: pointer;
 }
-.image:hover{
+.card__image:hover{
     scale: 1.01;
 }
-.card-title{
+.card__title{
     font-size: 20px;
     color: white;
 }
 
-.card-time{
+.card__time{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.time-left img ,.time-right img {
+.card__time-left img ,.card__time-right img {
     height: 16px;
    
 }
 
-.time-left{
+.card__time-left{
     color: #07e1dd;
     font-weight: 700;
     
 }
 
-.time-right{
+.card__time-right{
     color: gray;
 }
 .card-details{

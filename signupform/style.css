@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+body{
+    background-color: #34364D;
+   margin: 20px auto;
+   
+}
+.main{
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    border-radius: 16px;
+    background: white;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: #fff;
+    padding: 2rem;
+    box-sizing: border-box;
+    border-radius: 12px;
+    max-width: 900px;
+    margin: 2rem auto;
+}
+
+.left-section {
+    flex: 1;
+}
+
+.right-section {
+    flex: 1;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size:16px;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.left-section span img {
+    width: 16px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+
+.sign-up-form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-up-form label {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.sign-up-form input[type="email"] {
+    padding: 4px 8px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    font-size: 16px;
+    margin-bottom: 10px;
+
+}
+
+.sign-up-form input[type="email"]:focus {
+    border-color: #4A90E2;
+    box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+}
+
+.sub-btn ,.dismiss-btn {
+    padding: 0.7rem;
+    background-color: #4A90E2;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    height: 40px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.sub-btn:hover,
+.sub-btn:focus {
+    background-color: #357ABD;
+}
+
+
+.error-message {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+input.error {
+    border-color: rgb(255, 99, 71);
+    color: rgb(255, 99, 71);
+    background-color: rgba(255, 99, 71, 0.6);
+}
+
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: white;
+}
+.footer p{
+    color: white;
+}
+
+.footer a {
+    color: rgb(255, 99, 71);
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+
+@media (max-width: 768px) {
+    .main {
+        flex-direction: column-reverse;
+        padding: 1rem;
+    }
+    .right-section img {
+        width: 100%;
+    }
+}
+
+.success-container {
+    min-width: 400px;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2rem;
+}
+
+.success-icon {
+    width: 50px;
+    margin-bottom: 1rem;
+}

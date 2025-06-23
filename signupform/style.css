@@ -67,7 +67,7 @@ p {
     margin-bottom: 5px;
 }
 
-.sign-up-form input[type="email"] {
+.sign-up-form input[type="text"] {
     padding: 4px 8px;
     height: 40px;
     border: 1px solid #ccc;
@@ -78,7 +78,7 @@ p {
 
 }
 
-.sign-up-form input[type="email"]:focus {
+.sign-up-form input[type="text"]:focus {
     border-color: #4A90E2;
     box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
 }

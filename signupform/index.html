@@ -47,16 +47,21 @@
     const errorMsg = document.querySelector('.error-message');
     
     function isValidEmail(email) {
-      // More comprehensive email validation
+     
       const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
       return emailPattern.test(email);
     }
     
-    function showError() {
-      errorMsg.style.display = 'block';
-      emailInput.classList.add('error');
-    }
-    
+   function showError() {
+    const errorMsg = document.getElementById('errorMsg'); 
+    const emailInput = document.getElementById('email');  
+
+    errorMsg.style.display = 'block';
+    emailInput.style.borderColor =rgb(255, 99, 71);
+    emailInput.style.color = rgb(255, 99, 71);
+    emailInput.style.backgroundColor = rgba(255, 99, 71, 0.6); 
+
+   }
     function hideError() {
       errorMsg.style.display = 'none';
       emailInput.classList.remove('error');

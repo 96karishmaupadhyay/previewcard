@@ -68,33 +68,33 @@
      line-gap-override: 2px;
 }
 
-.footer{
+.card__creator{
     display: flex;
     align-items: center;
     gap: 20px;
     border-top: 1px solid gray;
     padding-top: 20px;
 }
-.footer img{
+.card__creator img{
     height: 50px;
     width: 50px;
     border-radius: 50%;
     border: 2px solid white;
 }
-.footer p{
+.card__creator p{
     color: gray;
 }
-.footer span{
+.card__creator span{
     color: white;
     
 }
 
-.card__creator{
+.footer{
     font-size: 14px;
 }
-.card__creator p{
+.footer p{
     color: gray;
 }
-.card__creator a{
+.footer a{
     color: #07e1dd;
 }

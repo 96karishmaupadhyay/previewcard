@@ -44,6 +44,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 10px;
 }
 .card__time-left img ,.card__time-right img {
     height: 16px;
@@ -88,12 +89,12 @@
     
 }
 
-.created-by{
+.card__creator{
     font-size: 14px;
 }
-.created-by p{
+.card__creator p{
     color: gray;
 }
-.created-by a{
+.card__creator a{
     color: #07e1dd;
 }

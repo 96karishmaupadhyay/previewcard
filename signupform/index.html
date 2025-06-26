@@ -52,16 +52,11 @@
       return emailPattern.test(email);
     }
     
-   function showError() {
-    const errorMsg = document.getElementById('errorMsg'); 
-    const emailInput = document.getElementById('email');  
-
-    errorMsg.style.display = 'block';
-    emailInput.style.borderColor =rgb(255, 99, 71);
-    emailInput.style.color = rgb(255, 99, 71);
-    emailInput.style.backgroundColor = rgba(255, 99, 71, 0.6); 
-
-   }
+    function showError() {
+      errorMsg.style.display = 'block';
+      emailInput.classList.add('error');
+    }
+    
     function hideError() {
       errorMsg.style.display = 'none';
       emailInput.classList.remove('error');
